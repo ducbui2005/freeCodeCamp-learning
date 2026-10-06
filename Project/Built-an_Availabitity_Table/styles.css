@@ -1,0 +1,111 @@
+:root {
+  --color0: #ffffff;
+  --color1: #cdfecd;
+  --color2: #9cfc9c;
+  --color3: #037c03;
+  --color4: #05c705;
+  --color5: #51fb51;
+
+  --solid-border: 1px solid #000;
+  --dashed-border: 1px dashed #000;
+}
+
+body {
+  background-color: #acd2bf;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 560px;
+}
+
+caption {
+  font-size: 20px;
+}
+
+th {
+  font-size: 20px;
+}
+
+td {
+  height: 21px;
+  border-left: var(--solid-border);
+  border-right: var(--solid-border);
+}
+
+.time {
+  border: none;
+  padding-right: 10px;
+}
+
+.available-0 {
+  background-color: var(--color0);
+}
+
+.available-1 {
+  background-color: var(--color1);
+}
+
+.available-2 {
+  background-color: var(--color2);
+}
+
+.available-3 {
+  background-color: var(--color3);
+}
+
+.available-4 {
+  background-color: var(--color4);
+}
+
+.available-5 {
+  background-color: var(--color5);
+}
+
+.sharp > td {
+  border-bottom: var(--solid-border);
+}
+
+.half > td {
+  border-bottom: var(--dashed-border);
+}
+
+#legend {
+  width: 200px;
+  margin: 60px auto 0;
+  text-align: center;
+}
+
+.title {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.zero {
+  font-size: 18px;
+}
+
+#legend-gradient {
+  width: 113px;
+  height: 28px;
+  border: 2px solid #000;
+
+  background-image: linear-gradient(
+    to right,
+    var(--color0) 0% 16%,
+    var(--color1) 16% 33%,
+    var(--color2) 33% 50%,
+    var(--color3) 50% 66%,
+    var(--color4) 66% 83%,
+    var(--color5) 83% 100%
+  );
+}
