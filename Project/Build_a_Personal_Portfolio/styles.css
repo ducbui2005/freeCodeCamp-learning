@@ -145,7 +145,7 @@ button:hover{
 #profile-link{
   font-size:1.4rem;
 }
-.hr-footer{
+.hr-footer:linked{
   height:5px;
   background-color:#be3144;
   border:none;
